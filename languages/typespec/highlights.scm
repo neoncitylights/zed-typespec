@@ -9,6 +9,7 @@
 	"const"
 	"dec"
 	"enum"
+	"extern"
 	"fn"
 	"import"
 	"interface"
@@ -21,7 +22,10 @@
 	"@@"
 ] @keyword
 
-(identifier) @identifier
+[
+	(identifier)
+	(plain_identifier)
+] @identifier
 
 [
 	(decimal_literal)
