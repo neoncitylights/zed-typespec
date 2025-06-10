@@ -40,3 +40,8 @@
 	"enum" @context
 	name: (_) @name
 	) @item
+
+(alias_statement
+	name: (_) @name
+	(template_parameters)? @context.extra
+	) @item
