@@ -22,10 +22,10 @@
 ] @keyword
 
 [
-  "is"
-  "extends"
-  "valueof"
-  "typeof"
+	"is"
+	"extends"
+	"valueof"
+	"typeof"
 ] @operator
 
 (enum_statement
