@@ -3,8 +3,6 @@
 	(multi_line_comment)
 ] @comment
 
-(identifier) @identifier
-
 [
 	(builtin_type)
 	"alias"
@@ -22,3 +20,18 @@
 	"using"
 	"@@"
 ] @keyword
+
+(identifier) @identifier
+
+[
+	(decimal_literal)
+	(hex_integer_literal)
+	(binary_integer_literal)
+] @number
+
+[
+	(quoted_string_literal)
+	(triple_quoted_string_literal)
+] @string
+
+(escape_sequence) @string.escape
