@@ -24,6 +24,16 @@
 ] @keyword
 
 [
+  "is"
+  "extends"
+  "valueof"
+  "typeof"
+] @operator
+
+(enum_statement
+  name: (identifier) @enum)
+
+[
 	(identifier)
 	(plain_identifier)
 ] @identifier
