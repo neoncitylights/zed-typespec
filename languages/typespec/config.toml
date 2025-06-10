@@ -1,0 +1,9 @@
+name = "TypeSpec"
+grammar = "typespec"
+path_suffixes = ["tsp"]
+# block_comment = ["{{!", "}}"]
+# autoclose_before = "}"
+# brackets = [
+# 	{ start = "<", end = ">", close = false, newline = true, not_in = ["comment"] },
+# 	{ start = "{", end = "}", close = true, newline = true }
+# ]
