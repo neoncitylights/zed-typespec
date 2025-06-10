@@ -28,13 +28,16 @@
 	"typeof"
 ] @operator
 
-(enum_statement
-  name: (identifier) @enum)
-
 [
-	(identifier)
-	(plain_identifier)
-] @identifier
+  "("
+  ")"
+  "["
+  "]"
+  "{"
+  "}"
+]  @punctuation.bracket
+
+(boolean_literal) @boolean
 
 [
 	(decimal_literal)
@@ -48,3 +51,23 @@
 ] @string
 
 (escape_sequence) @string.escape
+
+(namespace_statement
+	name: (_) @type
+	)
+
+(using_statement
+	module: (_) @type
+	)
+
+(enum_statement
+	name: (identifier) @type
+	) @enum
+
+(model_statement
+	name: (identifier) @type
+	)
+
+(interface_statement
+	name: (identifier) @type
+	)
