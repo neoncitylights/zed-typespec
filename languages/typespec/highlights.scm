@@ -3,8 +3,9 @@
 	(multi_line_comment)
 ] @comment
 
+(builtin_type) @type.builtin
+
 [
-	(builtin_type)
 	"alias"
 	"const"
 	"dec"
