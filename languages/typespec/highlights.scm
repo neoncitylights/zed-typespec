@@ -71,3 +71,7 @@
 (interface_statement
 	name: (identifier) @type
 	)
+
+(const_statement
+	name: (identifier) @type
+	) @const
