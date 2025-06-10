@@ -7,5 +7,5 @@ description = "TypeSpec syntax highlighting support"
 repository = "https://github.com/neoncitylights/zed-typespec"
 
 [grammars.typespec]
-repository = "https://github.com/happenslol/tree-sitter-typespec/"
+repository = "https://github.com/neoncitylights/tree-sitter-typespec/"
 rev = "b6b6a66a18e98f44cc2f2cdbfd2e1df845b59852"

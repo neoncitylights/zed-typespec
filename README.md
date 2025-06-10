@@ -3,7 +3,7 @@
 
 [TypeSpec](https://typespec.io) syntax highlighting support for [Zed](https://github.com/zed-industries/zed). This extension is currently a work-in-progress.
 
-- Tree-sitter: [happenslol/tree-sitter-typespec](https://github.com/happenslol/tree-sitter-typespec/)
+- Tree-sitter: [neoncitylights/tree-sitter-typespec](https://github.com/neoncitylights/tree-sitter-typespec/)
 
 ## License
 This software is licensed under the MIT license ([`LICENSE`](./LICENSE) or <https://opensource.org/license/mit/>).
