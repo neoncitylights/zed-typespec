@@ -1,0 +1,6 @@
+# GitHub's linguist classifier doesn't seem to recognize
+# .scm files as Tree-Sitter Query files yet
+# - https://github.com/github-linguist/linguist/pull/7243#pullrequestreview-2626496816
+# - https://github.com/github-linguist/linguist/pull/7431 (wait till merged to remove)
+
+.scm linguist-language=Tree-Sitter-Query
