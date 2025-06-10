@@ -1,7 +1,5 @@
-[
-	(single_line_comment)
-	(multi_line_comment)
-] @comment
+(single_line_comment) @comment
+(multi_line_comment) @comment.doc
 
 (builtin_type) @type.builtin
 
