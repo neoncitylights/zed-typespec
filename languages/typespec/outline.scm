@@ -45,3 +45,8 @@
 	name: (_) @name
 	(template_parameters)? @context.extra
 	) @item
+
+(const_statement
+	"const" @context
+	name: (_) @name
+	) @item
