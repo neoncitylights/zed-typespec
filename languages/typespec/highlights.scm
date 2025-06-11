@@ -29,13 +29,21 @@
 ] @operator
 
 [
-  "("
-  ")"
-  "["
-  "]"
-  "{"
-  "}"
-]  @punctuation.bracket
+	"("
+	")"
+	"["
+	"]"
+	"{"
+	"}"
+] @punctuation.bracket
+
+[
+	","
+] @punctuation.delimiter
+
+[
+	"@"
+] @punctuation.special
 
 (boolean_literal) @boolean
 
@@ -60,11 +68,19 @@
 	module: (_) @type
 	)
 
+(model_statement
+	name: (identifier) @type
+	)
+
+(scalar_statement
+	name: (identifier) @type
+	)
+
 (enum_statement
 	name: (identifier) @type
 	) @enum
 
-(model_statement
+(alias_statement
 	name: (identifier) @type
 	)
 
