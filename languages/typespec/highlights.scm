@@ -15,6 +15,7 @@
 	"interface"
 	"model"
 	"namespace"
+	"op"
 	"scalar"
 	"union"
 	"using"
@@ -67,11 +68,26 @@
 (using_statement
 	module: (_) @type
 	)
-(enum_statement) @enum
-(const_statement) @const
+(enum_statement
+	name: (_) @enum)
+
+(const_statement
+	name: (_) @const)
+
 (model_property
 	name: (_) @property
 	)
+
 (interface_member
 	name: (_) @function
 	)
+
+(model_property
+	name: (_) @property
+	)
+
+(union_variant
+	name: (_) @property)
+
+(object_member
+	key: (_) @property)
