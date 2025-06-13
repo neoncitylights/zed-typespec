@@ -1,7 +1,7 @@
 # zed-typespec
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
-[TypeSpec](https://typespec.io) syntax highlighting support for [Zed](https://github.com/zed-industries/zed). This extension is currently a work-in-progress.
+[TypeSpec](https://typespec.io) syntax highlighting support for [Zed](https://github.com/zed-industries/zed).
 
 - Tree-sitter: [neoncitylights/tree-sitter-typespec](https://github.com/neoncitylights/tree-sitter-typespec/)
 
