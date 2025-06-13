@@ -17,6 +17,10 @@
 - To see the generated Tree-Sitter Query AST, open "dev: open syntax tree view" (Command Palette).
 - You can test syntax highlighting with files in the `tests` directory. These test files are borrowed from the typespec.io website, such as the homepage and playground.
 
+> [!NOTE]
+> If you rebuilt and uninstalled the extension, then tried to reinstall it, you may see an error.
+> This can happen if a generated `grammars` directory already exists; delete it and try again.
+
 ## License
 This software is licensed under the MIT license ([`LICENSE`](./LICENSE) or <https://opensource.org/license/mit/>).
 
