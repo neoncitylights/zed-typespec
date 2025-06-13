@@ -3,17 +3,17 @@ import "@typespec/http";
 using Http;
 
 model Store {
-  name: string;
-  address: Address;
+	name: string;
+	address: Address;
 }
 
 model Address {
-  street: string;
-  city: string;
+	street: string;
+	city: string;
 }
 
 @route("/stores")
 interface Stores {
-  list(@query filter: string): Store[];
-  read(@path id: Store): Store;
+	list(@query filter: string): Store[];
+	read(@path id: Store): Store;
 }

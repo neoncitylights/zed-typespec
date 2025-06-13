@@ -1,5 +1,5 @@
 model Animal {
-  species: string;
+	species: string;
 }
 
 model Dog extends Animal {}
