@@ -72,3 +72,6 @@
 (model_property
 	name: (_) @property
 	)
+(interface_member
+	name: (_) @function
+	)
