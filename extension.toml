@@ -1,9 +1,9 @@
 id = "typespec"
-name = "TypeSpec Support"
+name = "TypeSpec"
 version = "0.0.1"
 schema_version = 1
 authors = ["Samantha Nguyen <contact@samanthanguyen.me>"]
-description = "TypeSpec syntax highlighting support"
+description = "TypeSpec support."
 repository = "https://github.com/neoncitylights/zed-typespec"
 
 [grammars.typespec]
