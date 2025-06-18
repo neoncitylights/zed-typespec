@@ -66,8 +66,8 @@
 (escape_sequence) @string.escape
 
 (using_statement
-	module: (_) @type
-	)
+	module: (_) @type)
+
 (enum_statement
 	name: (_) @enum)
 
@@ -75,16 +75,13 @@
 	name: (_) @const)
 
 (model_property
-	name: (_) @property
-	)
+	name: (_) @property)
 
 (interface_member
-	name: (_) @function
-	)
+	name: (_) @function)
 
 (model_property
-	name: (_) @property
-	)
+	name: (_) @property)
 
 (union_variant
 	name: (_) @property)
