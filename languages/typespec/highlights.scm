@@ -9,7 +9,6 @@
 	"dec"
 	"enum"
 	"extern"
-	"extends"
 	"fn"
 	"import"
 	"interface"
@@ -18,14 +17,16 @@
 	"op"
 	"scalar"
 	"union"
-	"using"
 	"@@"
-] @keyword
-
-[
+	; keyword operators
+	"extends"
 	"is"
 	"valueof"
 	"typeof"
+	"using"
+] @keyword
+
+[
 	"..."
 ] @operator
 
