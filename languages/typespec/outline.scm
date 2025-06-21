@@ -46,6 +46,7 @@
 ) @item
 
 (alias_statement
+	"alias" @context
 	name: (_) @name
 	(template_parameters)? @context.extra
 ) @item
