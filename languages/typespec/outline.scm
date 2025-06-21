@@ -39,6 +39,16 @@
 	(interface_heritage)? @context.extra
 ) @item
 
+(interface_member
+	(annotation_list)? @annotation
+	"op"? @context
+	name: (_) @name
+	[
+		(operation_signature_declaration)
+		(operation_signature_reference)
+	] @context
+) @item
+
 (enum_statement
 	(annotation_list)? @annotation
 	"enum" @context
