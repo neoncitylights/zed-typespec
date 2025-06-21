@@ -39,6 +39,9 @@
 	"}"
 ] @punctuation.bracket
 
+(template_arguments ["<" ">"] @punctuation.bracket)
+(template_parameters ["<" ">"] @punctuation.bracket)
+
 [
 	","
 	":"

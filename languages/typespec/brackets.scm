@@ -2,3 +2,5 @@
 ("{" @open "}" @close)
 ("(" @open ")" @close)
 ("\"" @open "\"" @close)
+(template_arguments "<" @open ">" @close)
+(template_parameters "<" @open ">" @close)
