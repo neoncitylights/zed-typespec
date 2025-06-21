@@ -23,6 +23,11 @@
 	(template_parameters)? @context.extra
 ) @item
 
+(union_variant
+	(annotation_list)? @annotation
+	(identifier) @name
+) @item
+
 (scalar_statement
 	(annotation_list)? @annotation
 	"scalar" @context
