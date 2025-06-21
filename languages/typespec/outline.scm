@@ -9,7 +9,11 @@
 	"model" @context
 	name: (identifier) @name
 	(template_parameters)? @context.extra
-	(model_is_heritage)? @context.extra
+	; TODO: model_heritage should be public like interface_heritage
+	[
+		(model_is_heritage)
+		(model_extends_heritage)
+	]? @context.extra
 ) @item
 
 (union_statement
