@@ -55,6 +55,17 @@
 	name: (_) @name
 ) @item
 
+(enum_spread_member
+	"..." @context
+	_ @name
+) @item
+
+(enum_member
+	(annotation_list)? @annotation
+	name: (_) @name
+	(enum_member_value)? @context
+) @item
+
 (alias_statement
 	"alias" @context
 	name: (_) @name
