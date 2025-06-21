@@ -46,7 +46,7 @@
 	[
 		(operation_signature_declaration)
 		(operation_signature_reference)
-	] @context
+	] @context.extra
 ) @item
 
 (enum_statement
@@ -63,7 +63,7 @@
 (enum_member
 	(annotation_list)? @annotation
 	name: (_) @name
-	(enum_member_value)? @context
+	(enum_member_value)? @context.extra
 ) @item
 
 (alias_statement
