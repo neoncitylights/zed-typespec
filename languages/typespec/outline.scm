@@ -81,3 +81,14 @@
 	"const" @context
 	name: (_) @name
 ) @item
+
+(operation_statement
+	(annotation_list)? @annotation
+	"op" @context
+	name: (_) @name
+	(template_parameters)? @context.extra
+	[
+		(operation_signature_declaration)
+		(operation_signature_reference)
+	] @context.extra
+) @item
