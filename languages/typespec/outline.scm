@@ -16,6 +16,24 @@
 	]? @context.extra
 ) @item
 
+; query is very specific to only capture model properties
+; within model statements, as model_property is also marked as a node
+; within operation statements too
+(
+	(model_statement
+		(model_expression
+			(model_body
+				(model_property
+					(annotation_list)? @annotation
+					name: (_) @name
+					("?"? ":") @context.extra
+					type: (_) @context.extra
+				) @item
+			)
+		)
+	)
+)
+
 (union_statement
 	(annotation_list)? @annotation
 	"union" @context
